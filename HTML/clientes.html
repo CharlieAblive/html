@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:rgb(135, 183, 223);">
+    <header>
+        <a href="index.html">Home</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="produtos.html">Produtos</a>
+    </header>    
+    <form name="cliente-form" action= "">
+    <input name="cliente_nomeCompleto" type="text" placeholder="Nome Completo...">
+    <br>
+    <input name="cliente_email" type="email" placeholder="E-mail...">
+    <br>
+    <input name="cliente_telefone" type="text" placeholder="Telefone...">
+    <br>
+    <p>Cliente Ativo</p>
+    <input name="cliente_ativo" type="checkbox">
+    <br>
+    <input name="cliente_preferencias" type="text" placeholder="Preferencias...">
+    <br>
+    <input name="cliente_histCompras" type="text" placeholder="Histórico de Compras...">
+    <br>
+    <input name="cliente_cpf" type="number" placeholder="CPF...">
+    <br>
+    <input name="cliente_pednameos" type="text" placeholder="Pednameos...">
+    <br>
+    <p> Endereço </p>
+    <input name="cliente_rua" type="text" placeholder="Rua...">
+    <input name="cliente_bairro" type="text" placeholder="Bairro...">
+    <input name="cliente_numero" type="text" placeholder="Numero...">
+    <input name="cliente_cnameade" type="text" placeholder="Cidade...">
+
+    <button type= "submit" onclick="">Enviar</button>
+
+
+    </form>
+
+    <div id="cliente_resultado"></div>
+    <script src="script.js"></script>
+</html>
